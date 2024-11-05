@@ -1,0 +1,16 @@
+{
+    "personnel_tables": [
+        {
+            "name": "employee"
+        },
+        {
+            "name": "contractor"
+        },
+        {
+            "name": "department"
+        }
+    ],
+    "sender_email":"snehalghole31@gmail.com",
+    "password": "Grantha@95",
+    "recipient_email":"snehalchile31@gmail.com"
+}
