@@ -1,1 +1,4 @@
-Error loading: Can only compare identically-labeled (both index and columns) DataFrame objects
+Employee ID 2 has no associated department.
+Department ID 102 has no assigned lead.
+Employee ID 2 has no associated department.
+Department ID 102 has no assigned lead.

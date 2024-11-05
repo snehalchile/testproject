@@ -1,0 +1,3 @@
+id,firstName,lastName,email,jobTitle,departmentId,action
+1,John,Doe,john.doe@example.com,Software Engineer,101,Delete
+5,Daniel,Williams,Williams@example.com,Software Engineer,110,Insert

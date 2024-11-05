@@ -14,7 +14,6 @@ def load_tables(config):
         table_name = table['name']
         try:
             personnel_data[table_name] = load_csv(f"file_base_db/{table_name}.csv")
-            print(type(personnel_data))
         except Exception as e:
             log_error(f"Error loading {table_name}: {str(e)}")
     
@@ -59,8 +58,7 @@ def run():
         if errors:
             for error in errors:
                 log_error(error)
-            email_error_log("snehalchile31@gmail.com") 
-        
+            email_error_log("test@gmail.com") 
         print("Personnel data management completed. Check the error log for details.")
         
     except Exception as e:
